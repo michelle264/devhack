@@ -5,6 +5,7 @@ import NavbarHR from './components/sidebar/navbarHR';
 import UserProfile from './components/profile/UserProfile';
 import HRProfile from './components/profile/HRProfile';
 import Login from './components/Homepage/Login';
+import LoginReal from './components/Homepage/LoginReal';
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
             </>
           }
         />
+
+        
 
         <Route path="*" element={<h1>Not Found</h1>} />
       </Routes>
