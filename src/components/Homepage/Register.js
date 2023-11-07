@@ -25,10 +25,10 @@ class RegisterPage extends React.Component {
               <label>Confirm Password</label>
               <input type="password" className="text-input" />
             </div>
-            <button className="register-button">Register</button>
-            <div className="login-text">Or Login using</div>
-            <div className="login-button">
-                <button className="login-link">Login</button>
+            <button className="register-button2">Register</button>
+            <div className="login-text2">Or Login using</div>
+            <div className="login-button2">
+                <button className="login-link2">Login</button>
             </div>
           </div>
         </div>

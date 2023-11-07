@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 120vh;
   }
   
   .register-container {
@@ -60,7 +60,7 @@
     transition: color 0.2s;
   }
   
-  .register-button {
+  .register-button2 {
     background-color: #4685FF;
     font-size: 16px;
     color: white;
@@ -73,21 +73,21 @@
     transition: background-color 0.2s;
   }
   
-  .register-button:hover {
+  .register-button2:hover {
     background-color: #356ABE;
   }
 
-  .login-text {
+  .login-text2 {
     color: grey;
     font-size: 12px;
     margin-top: 50px;
   }
   
-  .login-button {
+  .login-button2 {
     text-align: center;
   }
   
-  .login-link {
+  .login-link2 {
     background-color: transparent;
     border: none;
     font-size: 14px;
@@ -98,7 +98,7 @@
     transition: color 0.2s;
   }
   
-  .login-link:hover {
+  .login-link2:hover {
     color: #4685FF; /* Change color on hover */
   }
   
