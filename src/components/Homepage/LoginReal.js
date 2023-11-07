@@ -17,8 +17,14 @@ class LoginRealPage extends React.Component {
               <label>Password</label>
               <input type="password" className="text-input" />
             </div>
-            <a className="forgot-password-link">Forgot Password</a>
+            <div className="forgot-password">
+            <button className="forgot-password-button">Forgot Password</button>
+            </div>
             <button className="login-button">Login</button>
+            <div className="register-text">Or Register using</div>
+            <div className="register-button">
+                <button className="register-link">Register</button>
+            </div>
           </div>
         </div>
       );

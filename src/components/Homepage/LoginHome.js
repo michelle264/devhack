@@ -2,7 +2,7 @@ import React from 'react';
 import './LoginHome.css'; 
 import logo1 from './logo.png';
 
-class LoginPage extends React.Component {
+class LoginHome extends React.Component {
   render() {
     return (
       <div className="login-page">
@@ -25,5 +25,5 @@ class LoginPage extends React.Component {
   }
 }
 
-export default LoginPage;
+export default LoginHome;
 

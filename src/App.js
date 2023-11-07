@@ -8,6 +8,7 @@ import UserProfile from './components/profile/UserProfile';
 import HRProfile from './components/profile/HRProfile';
 import LoginHome from './components/Homepage/LoginHome';
 import LoginReal from './components/Homepage/LoginReal';
+import Register from './components/Homepage/Register';
 
 function App() {
   return (
@@ -24,11 +25,21 @@ function App() {
         />
 
       <Route
+          path="/login"
+          element={
+            <>
+              <NavbarHome />
+              <LoginReal />
+            </>
+          }
+        />
+
+      <Route
           path="/register"
           element={
             <>
               <NavbarRegister />
-              <LoginReal />
+              <Register />
             </>
           }
         />
