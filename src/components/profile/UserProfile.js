@@ -1,16 +1,19 @@
 import React from 'react';
-import './UserProfile.css'; // Import your CSS file
+import './UserProfile.css'; 
 import rectangleImage from './background.png'; // Import the image for rectangle1
 import profileImage from './profile.png'; // Import the image for profile-pic
 import logo from './logo.png';
 import huawei from './huawei.png';
 import intel from './intel.png';
 import dell from './dell.png';
+// import Navbar from './components/sidebar/navbar';
 
 class ProfileComponent extends React.Component {
   render() {
     return (
+      
       <div className="all">
+        {/* <Navbar /> */}
         <div className="container">
       <div className="left">
         <div className="rectangles-container">
