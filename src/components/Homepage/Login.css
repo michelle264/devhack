@@ -4,6 +4,7 @@
     align-items: center;
     height: 100vh;
     background-color: white;
+    flex-direction: column;
   }
   
   .background {
@@ -18,23 +19,24 @@
   .blue-rectangle {
     background-color: #9ACFFF;
     width: 100%;
-    text-align: center;
-    padding: 20px;
-    color: white;
+    height: 100px;
   }
   
   .big-logo {
-    max-width: 200px;
+    max-width: 400px;
+    margin-bottom: -40px;
   }
   
   .headline {
     font-size: 24px;
     font-weight: bold;
     margin-top: 20px;
+    color: black;
   }
   
   .subheadline {
     font-size: 14px;
     margin-top: 10px;
+    color: black;
   }
   
