@@ -6,7 +6,7 @@ import Navbar from './components/sidebar/navbar';
 import NavbarHR from './components/sidebar/navbarHR';
 import UserProfile from './components/profile/UserProfile';
 import HRProfile from './components/profile/HRProfile';
-import Login from './components/Homepage/Login';
+import LoginHome from './components/Homepage/LoginHome';
 import LoginReal from './components/Homepage/LoginReal';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
           element={
             <>
               <NavbarHome />
-              <Login />
+              <LoginHome />
             </>
           }
         />
