@@ -1,6 +1,5 @@
 import React from 'react';
 import logo1 from './logo.png';
-import logo2 from './logo.png';
 import './HomePage.css'; 
 
 class LoginPage extends React.Component {
@@ -23,5 +22,5 @@ class LoginPage extends React.Component {
   }
 }
 
-export default HomePage;
+export default LoginPage;
 
