@@ -1,5 +1,7 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import NavbarHome from './components/sidebar/navbarHome';
+import NavbarRegister from './components/sidebar/navbarRegister';
 import Navbar from './components/sidebar/navbar';
 import NavbarHR from './components/sidebar/navbarHR';
 import UserProfile from './components/profile/UserProfile';
@@ -11,6 +13,26 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+      <Route
+          path="/"
+          element={
+            <>
+              <NavbarHome />
+              <Login />
+            </>
+          }
+        />
+
+      <Route
+          path="/register"
+          element={
+            <>
+              <NavbarRegister />
+              <Login />
+            </>
+          }
+        />
+
         {/* Routes using Navbar (for regular users) */}
         <Route
           path="/userProfile"
