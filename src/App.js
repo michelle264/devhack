@@ -4,6 +4,7 @@ import Navbar from './components/sidebar/navbar';
 import NavbarHR from './components/sidebar/navbarHR';
 import UserProfile from './components/profile/UserProfile';
 import HRProfile from './components/profile/HRProfile';
+import Login from './components/Homepage/Login';
 
 function App() {
   return (
