@@ -9,6 +9,7 @@ import HRProfile from './components/profile/HRProfile';
 import LoginHome from './components/Homepage/LoginHome';
 import LoginReal from './components/Homepage/LoginReal';
 import Register from './components/Homepage/Register';
+import JobJS from './components/ListJob/JobJS';
 
 function App() {
   return (
@@ -65,6 +66,19 @@ function App() {
             </>
           }
         />
+
+        {/* Routes using Navbar (for regular users) */}
+        <Route
+          path="/listjobjs"
+          element={
+            <>
+              <Navbar />
+              <JobJS />
+            </>
+          }
+        />
+
+        
 
         
 

@@ -1,0 +1,106 @@
+.search-jobs-page {
+    background-color: white;
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f5f7fe;
+    padding: 5px 10px;
+    margin-right: 20px;
+    height: 120px;
+
+  }
+  
+  .search-input {
+    border: none;
+    background: black;
+    color: black;
+    outline: none;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 10px;
+  }
+  
+  .advanced-filters-button {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  
+  .jobs-list {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .jobs-found {
+    font-weight: bold;
+    color: black;
+  }
+  
+  .job-item {
+    display: flex;
+    background-color: #f5f7fe;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    padding: 20px;
+    justify-content: space-between;
+  }
+
+  .job-details {
+    flex: 1; /* Allow job-details to take available space */
+  }
+
+  .job-title-button {
+    text-align: left;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .job-title-link {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .job-title-link:hover {
+    color: #4685FF; /* Change color on hover */
+  }
+  
+  .job-description {
+    color: grey;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  
+  .apply-button {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .company-logo-container {
+    display: flex;
+    align-items: center; 
+  }
+
+  .company-logo {
+    margin-top: 20px;
+    max-width: 200px;
+    height: auto;
+  }
+  
+  
