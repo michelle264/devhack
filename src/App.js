@@ -28,7 +28,7 @@ function App() {
           path="/login"
           element={
             <>
-              <NavbarHome />
+              <NavbarRegister />
               <LoginReal />
             </>
           }
