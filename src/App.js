@@ -10,6 +10,7 @@ import LoginHome from './components/Homepage/LoginHome';
 import LoginReal from './components/Homepage/LoginReal';
 import Register from './components/Homepage/Register';
 import Resume from './components/Resume/ResumeList';
+import HRJob from './components/Job/HRJob';
 
 function App() {
   return (
@@ -77,7 +78,17 @@ function App() {
               <Resume />
             </>
           }
-        />      
+        />     
+
+         <Route
+          path="/HRJob"
+          element={
+            <>
+              <NavbarHR />
+              <HRJob />
+            </>
+          }
+        />    
 
         
 
