@@ -21,7 +21,7 @@ const NavigationBar = () => {
         </div>
       </div>
       <div className="menu">
-        <Link to="/jobs">
+        <Link to="/listjobjs">
           <FaBriefcase className="small-icon"/>
           <p className="menu-text">Jobs</p>
         </Link>
@@ -31,7 +31,7 @@ const NavigationBar = () => {
         <p className="menu-text">Profile</p>
           </div>
         </Link>
-        <Link to="/logout">
+        <Link to="/">
           <i className="small-icon">&#128274;</i>
           <p className="menu-text">Logout</p>
         </Link>

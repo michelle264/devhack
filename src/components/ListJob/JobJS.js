@@ -26,7 +26,9 @@ class SearchJobsPage extends React.Component {
          <div className="job-description">
            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum vitae dictumst sit vitae, mi imperdiet sit. Lectus eleifend aliquam nibh mauris, pretium. Lectus magnis lorem massa urna felis porta.
          </div>
-          <button className="apply-button">APPLY</button>
+         <div className="apply-button">
+         <button className="apply-button-link">APPLY</button>
+         </div>
         </div>
          <div className="company-logo-container">
          <img src={intellogo} alt="Company Logo" className="company-logo" />
@@ -41,11 +43,13 @@ class SearchJobsPage extends React.Component {
          <div className="job-description">
            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum vitae dictumst sit vitae, mi imperdiet sit. Lectus eleifend aliquam nibh mauris, pretium. Lectus magnis lorem massa urna felis porta.
          </div>
-          <button className="apply-button">APPLY</button>
+         <div className="apply-button">
+         <button className="apply-button-link">APPLY</button>
+         </div>
         </div>
          <div className="company-logo-container">
          <img src={intellogo} alt="Company Logo" className="company-logo" />
-             </div>
+         </div>
         </div>
         {/* Third job item */}
         <div className="job-item">
@@ -56,11 +60,13 @@ class SearchJobsPage extends React.Component {
          <div className="job-description">
            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum vitae dictumst sit vitae, mi imperdiet sit. Lectus eleifend aliquam nibh mauris, pretium. Lectus magnis lorem massa urna felis porta.
          </div>
-          <button className="apply-button">APPLY</button>
+         <div className="apply-button">
+         <button className="apply-button-link">APPLY</button>
+         </div>
         </div>
          <div className="company-logo-container">
          <img src={intellogo} alt="Company Logo" className="company-logo" />
-             </div>
+         </div>
         </div>
         </div>
       </div>

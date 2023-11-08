@@ -84,12 +84,24 @@
   }
   
   .apply-button {
-    background-color: white;
-    border: 1px solid black;
+    background-color: transparent;
     color: black;
+    border: black;
     font-weight: bold;
     padding: 10px;
     margin-top: 20px;
+  }
+  
+  .apply-button-link {
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s;
+    padding: 10px;
+  }
+  
+  .apply-button-link:hover {
+    color:#b9bac0; /* Change color on hover */
   }
   
   .company-logo-container {
