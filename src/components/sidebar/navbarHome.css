@@ -1,5 +1,6 @@
 /* navbar.css */
 .navbar {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,7 +46,7 @@
   
   .menu-button1 {
     background-color: #9ACFFF;
-    color: white;
+    color: white; 
     border: none;
     border-radius: 20px;
     padding: 5px 10px;

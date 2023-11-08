@@ -1,5 +1,6 @@
 import React from 'react';
 import './LoginReal.css'; 
+import { Link } from 'react-router-dom';
 
 class LoginRealPage extends React.Component {
     render() {
@@ -17,7 +18,16 @@ class LoginRealPage extends React.Component {
               <label>Password</label>
               <input type="password" className="text-input" />
             </div>
+            <div className="forgot-password">
+            <button className="forgot-password-button">Forgot Password</button>
+            </div>
             <button className="login-button">Login</button>
+            <div className="register-text">Or Register using</div>
+            <div className="register-button">
+            <Link to="/register">
+                <button className="register-link">Register</button>
+                </Link>
+            </div>
           </div>
         </div>
       );

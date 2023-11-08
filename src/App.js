@@ -8,6 +8,8 @@ import UserProfile from './components/profile/UserProfile';
 import HRProfile from './components/profile/HRProfile';
 import LoginHome from './components/Homepage/LoginHome';
 import LoginReal from './components/Homepage/LoginReal';
+import Register from './components/Homepage/Register';
+import Resume from './components/Resume/ResumeList';
 
 function App() {
   return (
@@ -24,7 +26,7 @@ function App() {
         />
 
       <Route
-          path="/register"
+          path="/login"
           element={
             <>
               <NavbarRegister />
@@ -32,6 +34,18 @@ function App() {
             </>
           }
         />
+
+      <Route
+          path="/register"
+          element={
+            <>
+              <NavbarRegister />
+              <Register />
+            </>
+          }
+        />
+
+     
 
         {/* Routes using Navbar (for regular users) */}
         <Route
@@ -54,6 +68,16 @@ function App() {
             </>
           }
         />
+
+        <Route
+          path="/Resume"
+          element={
+            <>
+              <NavbarHR />
+              <Resume />
+            </>
+          }
+        />      
 
         
 
