@@ -6,7 +6,7 @@ class LoginHome extends React.Component {
   render() {
     return (
       <div className="login-page">
-        <div className="background">
+        <div className="white-rectangle"></div>
           <div className="blue-rectangle">
             <img src={logo1} alt="Big Logo" className="big-logo" />
             <div className="headline">
@@ -20,7 +20,6 @@ class LoginHome extends React.Component {
             </div>
           </div>
         </div>
-      </div>
     );
   }
 }

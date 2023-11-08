@@ -1,5 +1,6 @@
 import React from 'react';
 import './Register.css'; 
+import { Link } from 'react-router-dom';
 
 class RegisterPage extends React.Component {
     render() {
@@ -28,7 +29,9 @@ class RegisterPage extends React.Component {
             <button className="register-button2">Register</button>
             <div className="login-text2">Or Login using</div>
             <div className="login-button2">
+            <Link to="/login">
                 <button className="login-link2">Login</button>
+                </Link>
             </div>
           </div>
         </div>
