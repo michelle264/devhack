@@ -1,18 +1,18 @@
 
 /* Style for the outer container */
 
-.All{
+.All2{
     background-color: #F5F7FE;
 }
 
-.Container{
+.Container2{
   display: flex;
   align-items: middle;
   padding: 20px;
   margin-left: 100px;
 }
 
-.Left {
+.Left2 {
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -20,7 +20,7 @@
   }
   
   /* Style for the rectangles container */
-  .Rectangles-container {
+  .Rectangles-container2 {
     display: flex;
     flex-direction: column; /* Place rectangles in a single column */
     align-items: center; /* Center horizontally */
@@ -28,23 +28,23 @@
   }
   
   /* Style for the rectangles */
-  .Rectangle1 {
+  .Rectangle12 {
     width: 700px; /* Make the rectangles bigger */
     height: 150px; /* Make the rectangles bigger */
     background-color: #3498db;
   }
 
-  .Rectangle2{
+  .Rectangle22{
     width: 700px; /* Make the rectangles bigger */
     height: 200px; /* Make the rectangles bigger */
     background-color: white;
   }
   
   /* Style for the profile container */
-  .Profile-container {
+  .Profile-container2 {
     position: relative;
   }
-  .Profile-container img{
+  .Profile-container2 img{
     width: 90px;
     height: 100px;
     border-radius: 50%;
@@ -56,7 +56,7 @@
   
   
   /* Style for the edit button (within profile-pic) */
-  .Edit-button {
+  .Edit-button2 {
     background-color: #0A66C2;
     border-radius: 50px;
     color: #fff;
@@ -67,7 +67,7 @@
     left: 21%;
   }
   
-  .Right
+  .Right2
    {
     max-width: 250px; 
     height: 55vh; 
@@ -77,7 +77,7 @@
 
   }
 
-  .Name{
+  .Name2{
     position: relative;
     top: 29%;
     font-size: 19px;
@@ -86,7 +86,7 @@
 
   }
 
-  .Position{
+  .Position2{
     position: relative;
     top: 31%;
     font-size: 14px;
@@ -104,7 +104,7 @@
     width: 90%;
   } */
 
-  .Rectangle3{
+  .Rectangle32{
     margin-top: 30px;
     
     width: 700px; /* Make the rectangles bigger */
@@ -112,12 +112,12 @@
     background-color: white;
   }
 
-  .SameRow{
+  .SameRow2{
     display: flex;
     justify-content: space-between;
   }
 
-  .Title{
+  .Title2{
     padding: 15px;
     font-size: 17px;
     font-family: sans-serif;
@@ -125,7 +125,7 @@
   }
 
 
-  .Edit-button2{
+  .Edit-button22{
     background-color: #0A66C2;
     border-radius: 50px;
     color: #fff;
@@ -137,7 +137,7 @@
     left: 27%;
   }
 
-  .Edit-button3{
+  .Edit-button32{
     background-color: #0A66C2;
     border-radius: 50px;
     color: #fff;
@@ -148,12 +148,12 @@
     left: 13%;
   }
 
-  .Email{
+  .Email2{
     padding-left: 20px;
     font-weight: 500;
   }
 
-  .Email-address {
+  .Email-address2 {
     border: 1px solid #000; /* Add a bottom border */
     padding: 10px; /* Add padding at the bottom for spacing */
     margin-left: 20px;
@@ -163,13 +163,13 @@
     border-radius: 30px;
   }
 
-  .Country{
+  .Country2{
     padding-top: 10px;
     padding-left: 20px;
     font-weight: 500;
   }
 
-  .Rectangle4{
+  .Rectangle42{
     margin-top: 30px;   
     width: 700px; 
     height: 100px; 
@@ -177,36 +177,18 @@
 
   }
 
-  .Title1{
+  .Title12{
     font-size: medium;
     font-weight: 550;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
   }
 
-  .Samerow3{
+  .Samerow32{
     display: flex;
     padding-left: 5px;
     padding-top: 10px;
     justify-content: space-between;
-  }
-
-  .Image{
-    margin-right: 15px;
-    margin-top: 10px;
-  }
-
-  .Image img{
-    width: 90px;
-    height: 60px;
-  }
-
-  .Recommendation{
-    padding-top: 15px;
-    color:#0A66C2;
-    font-size: 13px;
-    font-weight: 600;
-    cursor: pointer;
   }
 
   .Image2{
@@ -215,45 +197,63 @@
   }
 
   .Image2 img{
+    width: 90px;
+    height: 60px;
+  }
+
+  .Recommendation2{
+    padding-top: 15px;
+    color:#0A66C2;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .Image22{
+    margin-right: 15px;
+    margin-top: 10px;
+  }
+
+  .Image22 img{
     width: 70px;
     height: 60px;
     margin-right: 10px;
   }
 
-  .Image3 img{
+  .Image32 img{
     width: 70px;
     height: 65px;
     margin-right: 10px;
   }
 
-  .Image3{
+  .Image32{
     margin-right: 19px;
   }
 
-  .Person2{
+  .Person22{
     padding-top: 10px;
     font-weight: 600;
   }
 
-  .Person3{
+  .Person32{
     margin-right: 50px;
     padding-top: 10px;
     font-weight: 600;
   }
 
-  .Person1{
+  .Person12{
     font-weight: 600;
     position: relative;
     right: 20%;
     margin-top: 10px;
   }
 
-  .left-section {
+  .left-section2 {
     display: flex;
     align-items: center;
   }
 
-  .Company{
+  .Company2{
     font-size: 18px;
     font-weight: 800;
     position: relative;
@@ -264,7 +264,7 @@
     
   }
 
-  .Fill{
+  .Fill2{
     border: 1px solid #000; /* Add a bottom border */
     padding: 10px; /* Add padding at the bottom for spacing */
     margin-left: 130px;
@@ -274,7 +274,7 @@
     border-radius: 30px;
   }
 
-  .Location{
+  .Location2{
     font-size: 18px;
     font-weight: 800;
     position: relative;
@@ -284,7 +284,7 @@
     font-weight: bold;
   }
 
-  .Fill2{
+  .Fill22{
     border: 1px solid #000; /* Add a bottom border */
     padding: 10px; /* Add padding at the bottom for spacing */
     margin-left: 130px;
