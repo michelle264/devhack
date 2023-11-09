@@ -9,7 +9,7 @@ import Dell from './Dell.png';
 class REvaluation extends React.Component{
     render(){
         return(
-            <div className='container1'>
+            <div className='container2'>
 
                 <div className='heading'>
                     <div className='heading-left'>
