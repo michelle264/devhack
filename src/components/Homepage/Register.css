@@ -44,6 +44,31 @@
     margin-top: 5px;
   }
 
+  .role-selection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .role-button {
+    flex: 1;
+    background-color: #4685FF;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .role-button.selected {
+    background-color: #356ABE;
+  }
+  
+  
+
   .forgot-password {
     text-align: right; 
     width: 100%;
