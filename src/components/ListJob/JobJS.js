@@ -44,7 +44,10 @@ class SearchJobsPage extends React.Component {
            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum vitae dictumst sit vitae, mi imperdiet sit. Lectus eleifend aliquam nibh mauris, pretium. Lectus magnis lorem massa urna felis porta.
          </div>
          <div className="apply-button">
+          {/* link to applypage! */}
+         {/* <Link to="/applypage"> */}
          <button className="apply-button-link">APPLY</button>
+         {/* </Link> */}
          </div>
         </div>
          <div className="company-logo-container">

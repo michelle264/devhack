@@ -17,7 +17,7 @@ const NavigationBar = () => {
       <Link to="/login">
           <button className="menu-button1">Log in</button>
         </Link>
-        <Link to="/signup">
+        <Link to="/register">
           <button className="menu-button2">Register</button>
         </Link>
       </div>
