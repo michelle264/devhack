@@ -9,8 +9,9 @@
 .row{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin-top: 10px;
+    padding: 30px;
 }
 
 .card{
@@ -42,11 +43,10 @@
 
 .image img {
     max-width: 100%;
-    height: auto;
+    height: 200px;
 }
 
 .details{
-    margin-left: -20px;
     margin-top: 10px;
     background-color: #F5F7FE;
     width: 100%; 
@@ -163,5 +163,20 @@
     margin-bottom: 15px;
     margin-left: 30px;
 }
+
+.marker {
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 50%;
+    width: 52px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 15px;
+
+  }
+  
 
 

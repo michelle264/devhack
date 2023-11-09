@@ -3,6 +3,13 @@ import './Register.css';
 import { Link } from 'react-router-dom';
 
 class RegisterPage extends React.Component {
+  state = {
+    selectedRole: null,
+  };
+
+  handleRoleSelection = (role) => {
+    this.setState({ selectedRole: role });
+  };
     render() {
       return (
         <div className="register-page">
@@ -18,6 +25,23 @@ class RegisterPage extends React.Component {
               <label>Email</label>
               <input type="text" className="text-input" />
             </div>
+            <div className="form-group">
+        <label>Role</label>
+        <div className="role-selection">
+          <button
+            className={`role-button ${this.state.selectedRole === 'hr' ? 'selected' : ''}`}
+            onClick={() => this.handleRoleSelection('hr')}
+          >
+            HR
+         </button>
+         <button
+           className={`role-button ${this.state.selectedRole === 'jobSeeker' ? 'selected' : ''}`}
+            onClick={() => this.handleRoleSelection('jobSeeker')}
+         >
+           Job Seeker
+          </button>
+        </div>
+      </div>
             <div className="form-group">
               <label>Password</label>
               <input type="password" className="text-input" />

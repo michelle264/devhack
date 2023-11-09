@@ -6,113 +6,112 @@ import logo from './logo.png';
 import huawei from './huawei.png';
 import intel from './intel.png';
 import dell from './dell.png';
-// import Navbar from './components/sidebar/navbar';
 
 class ProfileComponent extends React.Component {
   render() {
     return (
       
-      <div className="all">
-        {/* <Navbar /> */}
-        <div className="container">
-      <div className="left">
-        <div className="rectangles-container">
-          <img src={rectangleImage} alt="Rectangle 1" className="rectangle1" />
-          <div className="rectangle2">
-          <div className="profile-container">
+      <div className="all1">
+       
+        <div className="container1">
+      <div className="left1">
+        <div className="rectangles-container1">
+          <img src={rectangleImage} alt="Rectangle 1" className="rectangle11" />
+          <div className="rectangle21">
+          <div className="profile-container1">
             <img src={profileImage} alt="profile"/>
             </div>
-          <button className="edit-button">Edit</button>
-          <div className="Jojo">Jojo</div>
-          <div className="position">IT Developer</div>
-          <div className="details">Experienced IT developer with a strong background in software development, specializing in web and mobile applications. Proficient in a range of programming languages and technologies, with a passion for creating efficient and innovative solutions to complex problems. A dedicated team player who excels in collaborative environments and has a proven track record of delivering high-quality software on time.</div>
+          <button className="edit-button1">Edit</button>
+          <div className="Jojo1">Jojo</div>
+          <div className="position1">IT Developer</div>
+          <div className="details1">Experienced IT developer with a strong background in software development, specializing in web and mobile applications. Proficient in a range of programming languages and technologies, with a passion for creating efficient and innovative solutions to complex problems. A dedicated team player who excels in collaborative environments and has a proven track record of delivering high-quality software on time.</div>
 
           </div>
         </div>
 
-        <div className="rectangle3">
-          <div className="sameRow">
-          <div className="title">General information</div>
-          <button className="edit-button2">Edit</button>
+        <div className="rectangle31">
+          <div className="sameRow1">
+          <div className="title1">General information</div>
+          <button className="edit-button21">Edit</button>
           </div>
-          <div className="email">Email</div>
-          <div className="email-address">jojo123@gmail.com</div>
-          <div className="country">Country/Region</div>
-          <div className="email-address">Malaysia</div>
-          <div className="country">Phone Number</div>
-          <div className="email-address">+60198772374</div>
+          <div className="email1">Email</div>
+          <div className="email-address1">jojo123@gmail.com</div>
+          <div className="country1">Country/Region</div>
+          <div className="email-address1">Malaysia</div>
+          <div className="country1">Phone Number</div>
+          <div className="email-address1">+60198772374</div>
         </div>
         
-        <div className="rectangle4">
-        <div className="sameRow">
-          <div className="title">Work Experience</div>
-          <button className="edit-button3">Edit</button>
+        <div className="rectangle41">
+        <div className="sameRow1">
+          <div className="title1">Work Experience</div>
+          <button className="edit-button31">Edit</button>
           </div>
-          <div className="work">Freelance UX/UI designer (1 year)</div>
-          <div className="company">Nintex Software Malaysia Sdn Bhd</div>
-          <div className="duration">Jun 2022-Jun 2023</div>
-          <div className="underline"></div>
-          <div className="work">UX/UI designer (3 months)</div>
-          <div className="company">VeecoTech</div>
-          <div className="duration">July 2021-October 2021</div>
+          <div className="work1">Freelance UX/UI designer (1 year)</div>
+          <div className="company1">Nintex Software Malaysia Sdn Bhd</div>
+          <div className="duration1">Jun 2022-Jun 2023</div>
+          <div className="underline1"></div>
+          <div className="work1">UX/UI designer (3 months)</div>
+          <div className="company1">VeecoTech</div>
+          <div className="duration1">July 2021-October 2021</div>
         </div>
 
-        <div className="rectangle5">
-        <div className="sameRow">
-          <div className="title">Skills</div>
-          <button className="edit-button4">Edit</button>
+        <div className="rectangle51">
+        <div className="sameRow1">
+          <div className="title1">Skills</div>
+          <button className="edit-button41">Edit</button>
           </div>
-          <div className="skill">Problem Solving Skill</div>
-          <div className="underline"></div>
-          <div className="skill">Leadership Skill</div>
-          <div className="underline"></div>
-          <div className="skill">Microsoft Office Suite</div>
-          <div className="underline"></div>
-          <div className="skill">Communication Skill</div>
+          <div className="skill1">Problem Solving Skill</div>
+          <div className="underline1"></div>
+          <div className="skill1">Leadership Skill</div>
+          <div className="underline1"></div>
+          <div className="skill1">Microsoft Office Suite</div>
+          <div className="underline1"></div>
+          <div className="skill1">Communication Skill</div>
 
         </div>
 
-        <div className="rectangle6">
-        <div className="sameRow">
-          <div className="title">Education</div>
-          <button className="edit-button5">Edit</button>
+        <div className="rectangle61">
+        <div className="sameRow1">
+          <div className="title1">Education</div>
+          <button className="edit-button51">Edit</button>
           </div>
           
-          <div className="sameRow2">
-            <img src={logo} alt="logo" className="logo" />
-            <div className="column">
-            <div className="university">
+          <div className="sameRow21">
+            <img src={logo} alt="logo" className="logo1" />
+            <div className="column1">
+            <div className="university1">
               University Malaya
             </div>
-            <div className="bachelor">Bachelor of Computer Science</div>
+            <div className="bachelor1">Bachelor of Computer Science</div>
             </div>
           </div>
           </div>
         </div>
-        <div className="right">
-          <div className="title1">YOU MAY LIKE THESE COMPANIES</div>
-          <div className="samerow3">
-            <div className="image">
-          <img src={huawei} alt="huawei"/>
+        <div className="right1">
+          <div className="title11">YOU MAY LIKE THESE COMPANIES</div>
+          <div className="samerow31">
+            <div className="image1">
+          <img src={huawei} alt="huawei1"/>
           </div>
-          <div className="Huawei">Huawei Technologies (Malaysia) Sdn.Bhd.</div>
+          <div className="Huawei1">Huawei Technologies (Malaysia) Sdn.Bhd.</div>
           </div>
 
-          <div className="samerow3">
-            <div className="image2">
+          <div className="samerow31">
+            <div className="image21">
           <img src={intel} alt="intel"/>
           </div>
-          <div className="Intel">Intel Corporation</div>
+          <div className="Intel1">Intel Corporation</div>
           </div>
 
-          <div className="samerow3">
-            <div className="image3">
+          <div className="samerow31">
+            <div className="image31">
           <img src={dell} alt="dell"/>
           </div>
-          <div className="Dell">Dell Technologies Inc. (DELL)</div>
+          <div className="Dell1">Dell Technologies Inc. (DELL)</div>
           </div>
 
-          <div className="recommendation">
+          <div className="recommendation1">
             SEE ALL RECOMMENDATIONS
           </div>
           

@@ -1,18 +1,18 @@
 
 /* Style for the outer container */
 
-.all{
+.all1{
     background-color: #F5F7FE;
 }
 
-.container{
+.container1{
   display: flex;
   align-items: middle;
   padding: 20px;
   margin-left: 100px;
 }
 
-.left {
+.left1 {
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -20,7 +20,7 @@
   }
   
   /* Style for the rectangles container */
-  .rectangles-container {
+  .rectangles-container1 {
     display: flex;
     flex-direction: column; /* Place rectangles in a single column */
     align-items: center; /* Center horizontally */
@@ -28,23 +28,23 @@
   }
   
   /* Style for the rectangles */
-  .rectangle1 {
+  .rectangle11 {
     width: 700px; /* Make the rectangles bigger */
     height: 150px; /* Make the rectangles bigger */
     background-color: #3498db;
   }
 
-  .rectangle2{
+  .rectangle21{
     width: 700px; /* Make the rectangles bigger */
     height: 200px; /* Make the rectangles bigger */
     background-color: white;
   }
   
   /* Style for the profile container */
-  .profile-container {
+  .profile-container1 {
     position: relative;
   }
-  .profile-container img{
+  .profile-container1 img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -56,7 +56,7 @@
   
   
   /* Style for the edit button (within profile-pic) */
-  .edit-button {
+  .edit-button1 {
     background-color: #0A66C2;
     border-radius: 50px;
     color: #fff;
@@ -67,7 +67,7 @@
     left: 23%;
   }
   
-  .right
+  .right1
    {
     max-width: 250px; 
     height: 50vh; 
@@ -77,7 +77,7 @@
 
   }
 
-  .Jojo{
+  .Jojo1{
     position: relative;
     top: 28%;
     font-size: 19px;
@@ -86,7 +86,7 @@
 
   }
 
-  .position{
+  .position1{
     position: relative;
     top: 28%;
     font-size: 14px;
@@ -95,7 +95,7 @@
     font-family: system-ui;
   }
 
-  .details{
+  .details1{
     position: relative;
     top: 31%;
     font-size: 13px;
@@ -104,7 +104,7 @@
     width: 90%;
   }
 
-  .rectangle3{
+  .rectangle31{
     margin-top: 30px;
     
     width: 700px; /* Make the rectangles bigger */
@@ -112,12 +112,12 @@
     background-color: white;
   }
 
-  .sameRow{
+  .sameRow1{
     display: flex;
     justify-content: space-between;
   }
 
-  .title{
+  .title1{
     padding: 15px;
     font-size: 17px;
     font-family: sans-serif;
@@ -125,7 +125,7 @@
   }
 
 
-  .edit-button2{
+  .edit-button21{
     background-color: #0A66C2;
     border-radius: 50px;
     color: #fff;
@@ -137,12 +137,12 @@
     left: 27%;
   }
 
-  .email{
+  .email1{
     padding-left: 20px;
     font-weight: 500;
   }
 
-  .email-address {
+  .email-address1 {
     border: 1px solid #000; /* Add a bottom border */
     padding: 10px; /* Add padding at the bottom for spacing */
     margin-left: 20px;
@@ -152,13 +152,13 @@
     border-radius: 30px;
   }
 
-  .country{
+  .country1{
     padding-top: 10px;
     padding-left: 20px;
     font-weight: 500;
   }
 
-  .rectangle4{
+  .rectangle41{
     margin-top: 30px;   
     width: 700px; 
     height: 200px; 
@@ -166,33 +166,33 @@
 
   }
 
-  .work{
+  .work1{
     padding-top: 10px;
     padding-left: 20px;
     font-weight: 500;
     font-size: 14px;
   }
 
-  .company{
+  .company1{
     padding-top: 5px;
     padding-left: 20px;
     font-weight: 300;
     font-size: 12px;
   }
 
-  .duration{
+  .duration1{
     padding-top: 5px;
     padding-left: 20px;
     font-weight: 100;
     font-size: 11px;
   }
 
-  .underline{
+  .underline1{
     border-bottom: 1px solid lightgray;
     padding-top: 8px;
   }
 
-  .edit-button3{
+  .edit-button31{
     background-color: #0A66C2;
     border-radius: 50px;
     color: #fff;
@@ -204,7 +204,7 @@
     left: 25%;
   }
 
-  .rectangle5{
+  .rectangle51{
     margin-top: 30px;   
     width: 700px; 
     height: 200px; 
@@ -212,7 +212,7 @@
 
   }
 
-  .edit-button4{
+  .edit-button41{
     background-color: #0A66C2;
     border-radius: 50px;
     color: #fff;
@@ -224,21 +224,21 @@
     left: 17%;
   }
 
-  .skill{
+  .skill1{
     padding-top: 5px;
     padding-left: 20px;
     font-weight: 400;
     font-size: 16px;
   }
 
-  .rectangle6{
+  .rectangle61{
     margin-top: 30px;   
     width: 700px; 
     height: 110px; 
     background-color: white;
   }
 
-  .edit-button5{
+  .edit-button51{
     background-color: #0A66C2;
     border-radius: 50px;
     color: #fff;
@@ -250,48 +250,48 @@
     left: 20%;
   }
   
-  .logo{
+  .logo1{
     padding-left: 15px;
   }
 
-  .sameRow2{
+  .sameRow21{
     display: flex;
     padding-left: 20px;
   }
 
-  .column{
+  .column1{
     padding-left: 20px;
   }
 
-  .university{
+  .university1{
     font-weight: 600;
   }
 
-  .bachelor{
+  .bachelor1{
     font-size: 13px;
     font-weight: 300;
   }
 
-  .title1{
+  .title11{
     font-size: medium;
     font-weight: 550;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
   }
 
-  .samerow3{
+  .samerow31{
     display: flex;
     padding-left: 5px;
     padding-top: 10px;
     justify-content: space-between;
   }
 
-  .image{
+  .image1{
     margin-right: 15px;
     margin-top: 10px;
   }
 
-  .recommendation{
+  .recommendation1{
     padding-top: 15px;
     color:#0A66C2;
     font-size: 13px;
@@ -299,24 +299,24 @@
     cursor: pointer;
   }
 
-  .image2 img{
+  .image21 img{
     width: 80px;
     height: 50px;
     margin-right: 10px;
   }
 
-  .image3 img{
+  .image31 img{
     width: 60px;
     height: 60px;
     margin-right: 10px;
   }
 
-  .Intel{
+  .Intel1{
     padding-top: 10px;
     margin-right: 16px;
   }
 
-  .Dell{
+  .Dell1{
     margin-left: 35px;
     padding-top: 10px;
   }
