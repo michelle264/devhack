@@ -50,7 +50,8 @@ class RegisterPage extends React.Component {
               <label>Confirm Password</label>
               <input type="password" className="text-input" />
             </div>
-            <button className="register-button2">Register</button>
+            <button className="register-button2">Register as Job Seeker</button>
+            <button className="register-button2">Register as HR</button>
             <div className="login-text2">Or Login using</div>
             <div className="login-button2">
             <Link to="/login">

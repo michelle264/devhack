@@ -48,7 +48,10 @@ class SearchJobsPage extends React.Component {
          Data Science Managers also provide technical leadership and ensure that projects are delivered successfully.
          </div>
          <div className="apply-button">
+          {/* link to applypage! */}
+         {/* <Link to="/applypage"> */}
          <button className="apply-button-link">APPLY</button>
+         {/* </Link> */}
          </div>
         </div>
          <div className="company-logo-container">

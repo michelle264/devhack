@@ -1,5 +1,6 @@
 import React from 'react';
 import './HRJob.css';
+import { Link } from 'react-router-dom';
 
 class HRJob extends React.Component{
     render(){
@@ -15,7 +16,9 @@ class HRJob extends React.Component{
                     <div className='card-left'>
                         <div className='card-title'>Principal Engineer Data Scientist</div>
                         <div className='card-details'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum vitae dictumst sit vitae, mi imperdiet sit. Lectus eleifend aliquam nibh mauris, pretium. Lectus magnis lorem massa urna felis porta.</div> 
+                        <Link to="/Resume">
                         <button className='check-button'>CHECK</button>
+                        </Link>
                     </div>
                     <div className='card-right'>department of computers and information technology</div>
                 </div>
@@ -24,7 +27,9 @@ class HRJob extends React.Component{
                     <div className='card-left'>
                         <div className='card-title'>Principal Engineer Data Scientist</div>
                         <div className='card-details'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum vitae dictumst sit vitae, mi imperdiet sit. Lectus eleifend aliquam nibh mauris, pretium. Lectus magnis lorem massa urna felis porta.</div> 
+                        <Link to="/Resume">
                         <button className='check-button'>CHECK</button>
+                        </Link>
                     </div>
                     <div className='card-right'>department of computers and information technology</div>
                 </div>
@@ -33,7 +38,9 @@ class HRJob extends React.Component{
                     <div className='card-left'>
                         <div className='card-title'>Principal Engineer Data Scientist</div>
                         <div className='card-details'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum vitae dictumst sit vitae, mi imperdiet sit. Lectus eleifend aliquam nibh mauris, pretium. Lectus magnis lorem massa urna felis porta.</div> 
+                        <Link to="/Resume">
                         <button className='check-button'>CHECK</button>
+                        </Link>
                     </div>
                     <div className='card-right'>department of computers and information technology</div>
                 </div>
