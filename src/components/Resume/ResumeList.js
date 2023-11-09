@@ -45,7 +45,7 @@ class ResumeList extends React.Component {
                 <div className='filter'>Advanced filters</div>
             </div>
 
-            <div className='title'>Resume for Software Engineer</div>
+            <div className='title'>Resume for Principal Engineer Data Scientist</div>
 
             <div className='row'>
               {/* Map through the resumes array to create a card for each resume */}
