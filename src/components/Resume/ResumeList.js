@@ -50,7 +50,7 @@ class ResumeList extends React.Component {
                         <img src={img1} alt='resume'></img>
                     </div>
                     <div className='details'>
-                        <div className='name'>{resume.name}</div>
+                        <div className='card-name'>{resume.name}</div>
 
                         <div className='date'>
                             <div className='icon'>
@@ -78,7 +78,7 @@ class ResumeList extends React.Component {
                         <img src={img1} alt='resume'></img>
                     </div>
                     <div className='details'>
-                        <div className='name'>{resume.name}</div>
+                        <div className='card-name'>{resume.name}</div>
 
                         <div className='date'>
                             <div className='icon'>
@@ -106,7 +106,7 @@ class ResumeList extends React.Component {
                         <img src={img1} alt='resume'></img>
                     </div>
                     <div className='details'>
-                        <div className='name'>{resume.name}</div>
+                        <div className='card-name'>{resume.name}</div>
 
                         <div className='date'>
                             <div className='icon'>
