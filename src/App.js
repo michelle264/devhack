@@ -12,6 +12,7 @@ import Register from './components/Homepage/Register';
 import Resume from './components/Resume/ResumeList';
 import HRJob from './components/Job/HRJob';
 import JSJob from './components/Job/JSJob';
+import JobJS from './components/ListJob/JobJS';
 
 function App() {
   return (
@@ -71,25 +72,18 @@ function App() {
           }
         />
 
+        {/* Routes using Navbar (for regular users) */}
         <Route
-          path="/Resume"
+          path="/listjobjs"
           element={
             <>
-              <NavbarHR />
-              <Resume />
+              <Navbar />
+              <JobJS />
             </>
           }
-        />     
+        />
 
-         <Route
-          path="/HRJob"
-          element={
-            <>
-              <NavbarHR />
-              <HRJob />
-            </>
-          }
-        />    
+        
 
          <Route
           path="/JSJob"
@@ -100,6 +94,26 @@ function App() {
             </>
           }
         />    
+
+        <Route
+          path="/HRJob"
+          element={
+            <>
+              <NavbarHR />
+              <HRJob />
+            </>
+          }
+        /> 
+
+        <Route
+          path="/Resume"
+          element={
+            <>
+              <NavbarHR />
+              <Resume />
+            </>
+          }
+        />       
 
         
 
