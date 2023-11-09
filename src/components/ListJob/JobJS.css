@@ -83,7 +83,7 @@
     margin-right: 20px;
   }
   
-  .apply-button {
+  .apply-button4 {
     background-color: transparent;
     color: black;
     border: black;
@@ -98,6 +98,8 @@
     cursor: pointer;
     transition: color 0.2s;
     padding: 10px;
+    border: 1px solid black;
+    text-decoration: none;
   }
   
   .apply-button-link:hover {
@@ -111,7 +113,7 @@
 
   .company-logo {
     margin-top: 20px;
-    max-width: 200px;
+    max-width: 150px;
     height: auto;
   }
   

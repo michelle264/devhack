@@ -3,7 +3,7 @@ import './UserProfile.css';
 import rectangleImage from './background.png'; // Import the image for rectangle1
 import profileImage from './profile.png'; // Import the image for profile-pic
 import logo from './logo.png';
-import huawei from './huawei.png';
+import huawei from './Huawei2.png';
 import intel from './intel.png';
 import dell from './dell.png';
 

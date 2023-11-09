@@ -121,7 +121,7 @@ function App() {
           path="/JobDetails"
           element={
             <>
-              <NavbarHR />
+              <Navbar />
               <JobDetails />
             </>
           }

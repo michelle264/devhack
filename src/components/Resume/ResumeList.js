@@ -6,11 +6,12 @@ import Bob from './Bob.png';
 import jane from './jane.png';
 import DateIcon from './Date.svg';
 import TimeIcon from './Time.svg';
+import { Link } from 'react-router-dom';
 
 class ResumeList extends React.Component {
     render() {
       const resumes = [
-        { id: 1, name: 'Olivia Wilson', date: '12 Nov 2023 (Sat)', time: '10:00 am - 11:00 am', marker: '93%' },
+        { id: 1, name: 'Jojo Lim Hui Rou', date: '12 Nov 2023 (Sat)', time: '10:00 am - 11:00 am', marker: '93%' },
         { id: 2, name: 'Jane Smith', date: '13 Nov 2023 (Sun)', time: '02:00 pm - 03:00 pm', marker: '90%' },
         { id: 3, name: 'Alice Johnson', date: '14 Nov 2023 (Mon)', time: '09:30 am - 10:30 am', marker: '85%' },
         { id: 4, name: 'Bob Williams', date: '15 Nov 2023 (Tue)', time: '03:30 pm - 04:30 pm', marker: '83%' },
@@ -49,7 +50,7 @@ class ResumeList extends React.Component {
             <div className='row'>
               {/* Map through the resumes array to create a card for each resume */}
               {resumes.map(resume => (
-                  <div key={resume.id} className='card'>
+                  <Link to="/REvaluation" key={resume.id} className='card'>
                     <div className='image'>
                       {resume.id === 1 ? (
                         <img src={img1} alt='resume'></img>
@@ -79,7 +80,7 @@ class ResumeList extends React.Component {
                         </div>
                         <div className='marker'>{resume.marker}</div>
                     </div>
-                </div>  
+                </Link>  
               ))}
             </div>
 

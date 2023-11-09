@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './JobJS.css'; 
-import intellogo from "./intel logo.png";
+import grablogo from "./Grab.png";
 import googlelogo from "./google logo.png";
 import amazonlogo from "./amazon logo.png";
 
@@ -23,18 +24,18 @@ class SearchJobsPage extends React.Component {
           <div className="job-item">
         <div className="job-details">
           <div className="job-title-button">
-            <button className="job-title-link">PRINCIPAL ENGINEER DATA SCIENTIST</button>
+            <button className="job-title-link">SOFTWARE DEVELOPER</button>
          </div>
          <div className="job-description">
-         As a Principal Engineer - Data Scientist at Intel, you will play a crucial role in shaping our data science and engineering strategy, driving innovation, and contributing to the development of cutting-edge solutions.You will lead a team of data scientists and engineers, collaborating with cross-functional teams to develop and deploy data-driven applications, machine learning models, and advanced analytics solutions.
-         You will also be responsible for setting the technical direction and providing expertise in data science and engineering.
+         As a Grab Software Developer, you will play a pivotal role in shaping our software development strategy, driving innovation, and contributing to the creation of cutting-edge solutions. You will lead a team of software developers, collaborating with cross-functional teams to develop and deploy software applications, drive technical excellence, and provide expertise in software development.
          </div>
-         <div className="apply-button">
-         <button className="apply-button-link">APPLY</button>
+         
+         <div className="apply-button4">
+          <Link to="/JobDetails" className="apply-button-link">APPLY</Link>
          </div>
         </div>
          <div className="company-logo-container">
-         <img src={intellogo} alt="Company Logo" className="company-logo" />
+         <img src={grablogo} alt="Company Logo" className="company-logo" />
          </div>
         </div>
           {/* Second job item */}
@@ -47,11 +48,9 @@ class SearchJobsPage extends React.Component {
          A Data Science Manager plays a pivotal role in overseeing a team of data scientists and leading data-driven initiatives within an organization. They are responsible for managing the team, setting the data strategy, and collaborating with other departments to translate business needs into actionable insights and data-driven solutions.
          Data Science Managers also provide technical leadership and ensure that projects are delivered successfully.
          </div>
-         <div className="apply-button">
-          {/* link to applypage! */}
-         {/* <Link to="/applypage"> */}
-         <button className="apply-button-link">APPLY</button>
-         {/* </Link> */}
+         <div className="apply-button4">
+
+         <Link to="/JobDetails" className="apply-button-link">APPLY</Link>
          </div>
         </div>
          <div className="company-logo-container">
@@ -68,8 +67,8 @@ class SearchJobsPage extends React.Component {
          Machine Learning Engineers focus on designing, developing, and deploying machine learning models and algorithms. They work closely with data scientists to take machine learning models from the research and prototyping phase to production.
          Machine Learning Engineers are responsible for building scalable, efficient, and robust machine learning solutions and often work with software engineers to integrate these solutions into applications.
          </div>
-         <div className="apply-button">
-         <button className="apply-button-link">APPLY</button>
+         <div className="apply-button4">
+         <Link to="/JobDetails" className="apply-button-link">APPLY</Link>
          </div>
         </div>
          <div className="company-logo-container">

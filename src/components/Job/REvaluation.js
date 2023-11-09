@@ -1,6 +1,6 @@
 import React from 'react';
 import './REvaluation.css';
-import Grab from './Grab.png';
+import profile from './profile.png';
 import Huawei from './Huawei.png';
 import Intel from './Intel.png';
 import Dell from './Dell.png';
@@ -13,7 +13,7 @@ class REvaluation extends React.Component{
 
                 <div className='heading'>
                     <div className='heading-left'>
-                        <img src={Grab} alt="Grab"/>
+                        <img src={profile} alt="Grab"/>
                     </div>
                     <div className='heading-right'>
                         <div className='heading-JobTitle'>Jojo Lim Hui Rou</div>
