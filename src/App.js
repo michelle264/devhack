@@ -11,6 +11,7 @@ import LoginReal from './components/Homepage/LoginReal';
 import Register from './components/Homepage/Register';
 import Resume from './components/Resume/ResumeList';
 import HRJob from './components/Job/HRJob';
+import JSJob from './components/Job/JSJob';
 
 function App() {
   return (
@@ -86,6 +87,16 @@ function App() {
             <>
               <NavbarHR />
               <HRJob />
+            </>
+          }
+        />    
+
+         <Route
+          path="/JSJob"
+          element={
+            <>
+              <NavbarHR />
+              <JSJob />
             </>
           }
         />    
