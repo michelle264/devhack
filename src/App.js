@@ -13,6 +13,8 @@ import Resume from './components/Resume/ResumeList';
 import HRJob from './components/Job/HRJob';
 import JSJob from './components/Job/JSJob';
 import JobJS from './components/ListJob/JobJS';
+import JobDetails from './components/Job/JobDetails';
+import REvaluation from './components/Job/REvaluation';
 
 function App() {
   return (
@@ -111,6 +113,26 @@ function App() {
             <>
               <NavbarHR />
               <Resume />
+            </>
+          }
+        />   
+
+        <Route
+          path="/JobDetails"
+          element={
+            <>
+              <NavbarHR />
+              <JobDetails />
+            </>
+          }
+        />       
+
+        <Route
+          path="/REvaluation"
+          element={
+            <>
+              <NavbarHR />
+              <REvaluation/>
             </>
           }
         />       
