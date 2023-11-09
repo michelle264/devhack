@@ -1,5 +1,5 @@
 import React from 'react';
-import './UserProfile.css'; 
+import './UserProfile.css';
 import rectangleImage from './background.png'; // Import the image for rectangle1
 import profileImage from './profile.png'; // Import the image for profile-pic
 import logo from './logo.png';
